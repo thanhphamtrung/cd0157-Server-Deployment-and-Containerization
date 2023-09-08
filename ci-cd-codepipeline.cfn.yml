@@ -33,10 +33,10 @@ Parameters:
   GitHubToken:
     Type: String
     NoEcho: true
-    Description: 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
+    Description: GitHub API token - see https://github.com/blog/1509-personal-api-tokens
     MinLength: 3
     MaxLength: 100
-    ConstraintDescription: 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
+    ConstraintDescription: You must enter a GitHub personal access token
 
   GitHubUser:
     Type: String
@@ -44,7 +44,7 @@ Parameters:
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
-    ConstraintDescription: thanhphamtrung
+    ConstraintDescription: You must enter a GitHub username or organization
 
   CodeBuildDockerImage:
     Type: String
